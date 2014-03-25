@@ -1,4 +1,4 @@
-package ocom.calendar;
+package com.calendar;
  
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
