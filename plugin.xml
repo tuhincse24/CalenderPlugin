@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.devgirl.calendar"
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+           id="com.calendar"
       version="0.1.0">
     <name>Calendar</name>
-    <description>Sample PhoneGap Calendar Plugin</description>
+    <description>Sample Cordova Calendar Plugin</description>
     <license>MIT</license>
-    <keywords>phonegap,calendar</keywords>
+    <keywords>Cordova,calendar</keywords>
 
 
     <js-module src="www/calendar.js" name="Calendar">
@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Calendar">
-                <param name="android-package" value="org.devgirl.calendar.Calendar"/>
+                <param name="android-package" value="com.calendar.Calendar"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Calendar.java" target-dir="src/org/devgirl/calendar" />      
+        <source-file src="src/android/Calendar.java" target-dir="src/com/calendar" />      
      </platform>          
 </plugin>
